@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="#9F9F85">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintBottom_toTopOf="@id/grid1"
+    android:text="Product"
+    android:textColor="@color/black"
+    android:textSize="40dp"
+    android:layout_marginStart="140dp"
+    android:layout_marginTop="9dp"
+    android:layout_marginBottom="20dp"
+/>
+
+    <GridLayout
+        android:id="@+id/grid1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="4"
+        android:layout_marginTop="38dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="6dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/circleImageView"
+                android:src="@drawable/homimg"
+                />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home, Garden, Tools"
+                android:textColor="#352816"
+                android:layout_gravity="center|bottom"
+                android:textSize="17dp"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="6dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/circleImageView"
+                android:src="@drawable/book"
+                />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Books"
+                android:textColor="#352816"
+                android:layout_gravity="center|bottom"
+                android:textSize="17dp"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="6dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/circleImageView"
+                android:src="@drawable/car"
+                />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Automotive"
+                android:textColor="#352816"
+                android:layout_gravity="center|bottom"
+                android:textSize="17dp"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="6dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/circleImageView"
+                android:src="@drawable/toy"
+                />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toys"
+                android:textColor="#352816"
+                android:layout_gravity="center|bottom"
+                android:textSize="17dp"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="6dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/circleImageView"
+                android:src="@drawable/dog"
+                />
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pet Supplies"
+                android:textColor="#352816"
+                android:layout_gravity="center|bottom"
+                android:textSize="17dp"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="6dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/circleImageView"
+                android:src="@drawable/food"
+                />
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food"
+                android:textColor="#352816"
+                android:layout_gravity="center|bottom"
+                android:textSize="17dp"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="6dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/circleImageView"
+                android:src="@drawable/beauty"
+                />
+
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beauty ,Health"
+                android:textColor="#352816"
+                android:layout_gravity="center|bottom"
+                android:textSize="17dp"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="6dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/circleImageView"
+                android:src="@drawable/clothes"
+                />
+
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clothes"
+                android:textColor="#352816"
+                android:layout_gravity="center|bottom"
+                android:textSize="17dp"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+
+
+    </GridLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

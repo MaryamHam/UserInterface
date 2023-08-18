@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="spinner1">
+        <item>I am a ..</item>
+        <item>developer</item>
+    </string-array>
+
+
+    <string-array name="spinner2">
+        <item>(Us) +1</item>
+
+    </string-array>
+</resources>
